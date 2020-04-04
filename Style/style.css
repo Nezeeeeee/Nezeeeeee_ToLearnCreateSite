@@ -15,40 +15,52 @@ a:hover{
 }
 
 .menumain a{
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
     display: inline;
     border:  3px solid black;
     margin-left: 50px;
     text-decoration: none;
     background-color: burlywood;
+    
 }
 .menumain{
     background-color: darkgrey;
 }
 /*BEGIN иконки для меню*/
 .maina{
-    background-image: url();
+    background-image: url(../pictures/main.png) ;
+    background-repeat: no-repeat;
+    padding-left: 30px;
 }
 .newsa{
-
+    background-image: url(../pictures/news.png) ;
+    background-repeat: no-repeat;
+    padding-left: 30px;
 }
 .contactsa{
-
+    background-image: url(../pictures/contacts.png) ;
+    background-repeat: no-repeat;
+    padding-left: 30px;
 }
 /*иконки для меню END*/
 .content{
 text-align: center;
+background-color: lightblue;
 }
 /*BEGIN Блоки с картинками в контенте*/
 .condivpic{
+    background-image: url(../pictures/pic.jpg);
+    width: 300px;
+    height: 300px;
     border: 2px solid black;
     border-left-color: darkred;
     border-right-color: darkred;
-    margin-top: 2px;
+    border-radius: 15px 30px 5px 40px;
+    background-color: darkslategrey;
+    margin-top: 4px;
+    margin-left: 4px;
     display: inline-block;
-    width: 300px;
-    height: 300px;
     
 }
 /*END Блоки с картинками в контенте*/
