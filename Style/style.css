@@ -10,9 +10,14 @@
     text-align: center;
     background-color: darkgrey;
 }
+
+a:visited{
+    color: black;
+}
 a:hover{
     color: crimson;
 }
+
 
 .menumain a{
     font-size: 30px;
@@ -46,11 +51,11 @@ a:hover{
 /*иконки для меню END*/
 .content{
 text-align: center;
-background-color: lightblue;
+background-color: dimgray;
 }
 /*BEGIN Блоки с картинками в контенте*/
 .condivpic{
-    background-image: url(../pictures/pic.jpg);
+    
     width: 300px;
     height: 300px;
     border: 2px solid black;
@@ -63,4 +68,17 @@ background-color: lightblue;
     display: inline-block;
     
 }
+#condivpic1{
+    background-image: url(../pictures/pic1.jpg);
+}
+#condivpic2{
+    background-image: url(../pictures/pic2.jpg);
+}
+#condivpic3{
+    background-image: url(../pictures/pic3.jpg);
+}
+#condivpic4{
+    background-image: url(../pictures/pic4.jpg);
+}
+
 /*END Блоки с картинками в контенте*/
