@@ -66,11 +66,16 @@ background-color: dimgray;
     margin-top: 4px;
     margin-left: 4px;
     display: inline-block;
+    box-shadow: 10px 4px 10px 3px lavenderblush;
     
 }
+
 #condivpic1{
     background-image: url(../pictures/pic1.jpg);
+    
 }
+
+
 #condivpic2{
     background-image: url(../pictures/pic2.jpg);
 }
