@@ -67,6 +67,7 @@ background-color: dimgray;
     margin-left: 4px;
     display: inline-block;
     box-shadow: 10px 4px 10px 3px lavenderblush;
+    cursor: pointer;
     
 }
 
@@ -87,3 +88,17 @@ background-color: dimgray;
 }
 
 /*END Блоки с картинками в контенте*/
+
+.newsblock{
+    background-color: lavenderblush;
+}
+.pnews2{
+width: 700px;
+}
+
+.aboutus{
+    width: 700px;
+    text-align: right;
+    float: right;
+    background-color: lightgoldenrodyellow;
+}
