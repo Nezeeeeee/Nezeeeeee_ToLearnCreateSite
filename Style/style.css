@@ -95,10 +95,19 @@ background-color: dimgray;
 .pnews2{
 width: 700px;
 }
-
+.pnews4{
+    width: 700px;
+}
 .aboutus{
     width: 700px;
-    text-align: right;
+    text-align: center;
     float: right;
     background-color: lightgoldenrodyellow;
+}
+.aboutus2{
+    width: 700px;
+    text-align: center;
+    float: left;
+    background-color: lightgoldenrodyellow;
+
 }
